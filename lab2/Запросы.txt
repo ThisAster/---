@@ -1,0 +1,30 @@
+Какие игроки относятся к команде синих?
+player_team value blue
+
+Кто из игроков взял персонажа genji?
+player_hero value genji
+
+Какие герои относятся к классу танк?
+hero_class value tank
+
+Вывести список игроков в команде blue, которые убили кого-либо
+(kill some player_in_game) and (player_team value blue)
+
+Кто убил игрока kriper2004?
+kill value kriper2004
+
+Какие карты относятся к режиму control?
+type_map value control
+
+Есть ли в игре soldier76 или genji?
+(player_hero value soldier76) or (player_hero value genji)
+
+Какой игрок играет за soldier76 с готовой ультой?
+(player_hero value soldier76) and (player_status_ulta value ready)
+
+Кто находится в команде синих или кто убил игрока kriper2004?
+(player_team value blue) or (kill value kriper2004)
+
+Кто из игроков играет за героев, у которых класс damage?
+player_hero some (hero_class value damage)
+

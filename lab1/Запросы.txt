@@ -1,0 +1,58 @@
+- Простые запросы к базе знаний для поиска фактов.
+Есть ли в игре freiz?
+player_in_game(freiz).
+
+Игрок leydan играет за команду blue?
+player_team(leydan, blue).
+
+Игрок doctor_strange убил игрока draw_apelsin?
+kill(doctor_strange, draw_apelsin).
+
+Относится ли герой dva к классу tank?
+hero_class(dva, tank).
+
+
+- Запросы, использующие логические операторы (и, или, не) для формулирования сложных условий.
+
+В какой команде есть genji и вывести имя игрока, который играет за него.
+has_team_genji(Team), is_player_genji(Name_Player), player_hero(Name_Player, genji).
+
+Есть ли в игре персонаж genji или solder76?
+hero(genji); hero(soldier76).
+
+Вывести список игроков, которые в команде "red" и которые убили кого-то из противоположной команды.
+player_team(X, blue), kill(X, _).
+
+Не относится к типу control?
+not(type_map(hanamura, control)).
+
+
+- Запросы, которые требуют выполнения правил для получения результата.
+
+Относится ли карта busan к типу control?
+is_map_type_control(busan).
+
+Игрок leydan выбрал персонажа genji?
+is_player_genji(leydan).
+
+Кто может использовать ульту?
+ability_player_ulta(X, ready).
+
+В какой команде есть genji? 
+has_team_genji(X).
+
+- Запросы, использующие переменные для поиска объектов с определенными характеристиками.
+
+Кто играет за красных?
+player_team(Name_Player, red).
+
+Кого убил freiz?
+kill(freiz, X).
+
+Умер ли who_am_i?
+kill(_, who_am_i).
+
+Вывести список персонажей, который относятся к классу tank
+hero_class(X, tank).
+
+

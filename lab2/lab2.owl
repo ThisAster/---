@@ -1,0 +1,831 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero_class -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero_class">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#class"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#kill -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#kill">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_hero -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_hero">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_status_ulta -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_status_ulta">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#status_ulta"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_team -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_team"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type_map -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type_map">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#class -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#class"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#status_ulta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#status_ulta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#team_in_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#team_in_game"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+        <hero_class rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#heal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#antarctic_peninsula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#antarctic_peninsula"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ash"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#assault -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#assault">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ayutthaya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ayutthaya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+        <type_map rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#capture_the_flag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#baptiste -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#baptiste"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#bastion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#bastion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#black_forest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#black_forest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+        <type_map rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#elimintation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#blizzard_world -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#blizzard_world">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+        <type_map rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hybrid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#blue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#blue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#team_in_game"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#brigite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#brigite"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#busan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#busan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+        <type_map rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#control"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#capture_the_flag -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#capture_the_flag">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#castillo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#castillo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#chateau_guillard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#chateau_guillard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+        <type_map rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#deathmatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#circuit_royal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#circuit_royal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+        <type_map rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#escort"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#colosseo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#colosseo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+        <type_map rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#push"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#control -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#control">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#damage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#damage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#deathmatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#deathmatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#devochka_a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#devochka_a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+        <player_team rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#red"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#doctor_strange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#doctor_strange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+        <kill rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#draw_apelsin"/>
+        <player_team rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#blue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#doomfist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#doomfist">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+        <hero_class rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#damage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#dorado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#dorado"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#draw_apelsin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#draw_apelsin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+        <player_team rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#red"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#dva -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#dva">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+        <hero_class rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#tank"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ecopoint_antarctica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ecopoint_antarctica"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#eichenwalde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#eichenwalde"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#elimintation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#elimintation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#escort -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#escort">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#esperanca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#esperanca"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#flashpoint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#flashpoint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#freiz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#freiz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+        <kill rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#who_am_i"/>
+        <player_hero rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#soldier76"/>
+        <player_status_ulta rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ready"/>
+        <player_team rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#blue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#genji -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#genji">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+        <hero_class rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#damage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hanamura -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hanamura">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+        <type_map rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#assault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hanzo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hanzo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#havana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#havana"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#heal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#heal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hollywood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hollywood"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#horizon_lunar_colony -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#horizon_lunar_colony"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hybrid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hybrid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ilios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ilios"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#junkertown -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#junkertown"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#junkrat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#junkrat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#kanezaka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#kanezaka"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#kings_row -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#kings_row"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#kriper2004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#kriper2004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+        <player_team rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#red"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#leydan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#leydan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+        <kill rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#devochka_a"/>
+        <player_hero rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#genji"/>
+        <player_status_ulta rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#not_ready"/>
+        <player_team rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#blue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#lijiang_tower -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#lijiang_tower"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#lucio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#lucio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+        <hero_class rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#heal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#malevento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#malevento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#mccree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#mccree"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#mei -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#mei"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#mercy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#mercy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+        <hero_class rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#heal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#midtown -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#midtown"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#moira -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#moira"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#necropolis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#necropolis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#nepal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#nepal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#new_junk_city -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#new_junk_city">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#map"/>
+        <type_map rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#flashpoint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#new_queen_street -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#new_queen_street"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#not_ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#not_ready">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#status_ulta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#numbani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#numbani"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#oasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#oasis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#orisa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#orisa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+        <hero_class rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#tank"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#paraiso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#paraiso"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#paris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#paris"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#petra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#petra"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#pharah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#pharah"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#push -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#push">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#ready">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#status_ulta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#reaper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#reaper"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#red -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#red">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#team_in_game"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#reinhardt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#reinhardt"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#rialto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#rialto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#roadhog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#roadhog"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#route66 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#route66"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#shambali_monastery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#shambali_monastery"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#sigma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#sigma"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#soldier76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#soldier76">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#hero"/>
+        <hero_class rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#damage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#sombra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#sombra"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#suravasa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#suravasa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#symmetra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#symmetra"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#talantis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#talantis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#tank -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#tank">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#temple_of_anubis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#temple_of_anubis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#torbjorn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#torbjorn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#tracer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#tracer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#vasilisa_stone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#vasilisa_stone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+        <kill rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#kriper2004"/>
+        <player_team rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#blue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#volskaya_industries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#volskaya_industries"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#watchpoint_gibraltar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#watchpoint_gibraltar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#who_am_i -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#who_am_i">
+        <rdf:type rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#player_in_game"/>
+        <player_team rdf:resource="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#red"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#widowmaker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#widowmaker"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#winston -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#winston"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#wrecking_ball -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#wrecking_ball"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#zarya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#zarya"/>
+    
+
+
+    <!-- http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#zenyata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/freiz/ontologies/2023/8/untitled-ontology-2#zenyata"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
