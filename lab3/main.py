@@ -45,5 +45,5 @@ with PrologMQI() as mqi:
                 processor.run(prolog)
                 break
             else:
-                print("Неверный запрос")
+                print(incorrect_request)
 
