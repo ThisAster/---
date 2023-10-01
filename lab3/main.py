@@ -22,7 +22,7 @@ patterns = {
     r'Какие герои относятся к классу (.+)\?': FindHero.FindHero,
     r'Какие карты относятся к режиму (.+)\?': FindMap.FindMap,
     r'Вывести игроков за команду (.+)': GetTeamMembers.GetTeamMembers,
-    "Я игрок - (.+), люблю быть (.+)": MainQuery.MainQuery
+    "Я игрок - (.+), люблю быть (.+) для команды": MainQuery.MainQuery
 }
 
 with PrologMQI() as mqi:

@@ -24,7 +24,7 @@ class MainQuery:
         return query
 
     def success(self, res):
-        print(f'{self.nickname[0]}, для вас подойдут данные герои:')
+        print(f'{self.nickname}, для вас подойдут данные герои:')
         for index, line in enumerate(res, 1):
             print(f'{index}.', line['X'])
 
