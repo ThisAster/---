@@ -3,7 +3,7 @@ from methods import FindHero, FindKills, FindMap, FindPlayerStats, GetTeamMember
 import re
 
 #путь к файлу с базой знаний
-KNOWLEDGE_BASE_PATH = r'C:\Users\freiz\OneDrive\Рабочий стол\СИИ\lab1\lab1.pl'
+KNOWLEDGE_BASE_PATH = r'C:\Users\freiz\OneDrive\Рабочий стол\СИИ\Модуль1\lab1\lab1.pl'
 
 incorrect_request = 'Неправильный запрос'
 
