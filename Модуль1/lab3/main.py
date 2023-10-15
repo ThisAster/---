@@ -46,28 +46,3 @@ with PrologMQI() as mqi:
                 break
             else:
                 print(incorrect_request)
-
-# Определяем зависимую переменную (целевую) и признаки
-X = data.drop(columns=['Performance Index'])
-y = data['Performance Index']
-
-# Разделение на обучающий и тестовый наборы
-def train_test_split_custom(X, y, test_size=0.2):
-    # Вычисляем количество элементов, которые нужно выделить на тестовый набор
-    test_samples = int(len(X) * test_size)
-    # Получаем случайные индексы для тестового набора
-    test_indices = np.random.choice(len(X), test_samples, replace=False)
-    # Создаем маску для индексов, которые будут использоваться в тренировочном наборе
-    train_indices = np.ones(len(X), dtype=bool)
-    train_indices[test_indices] = False
-    # Разделяем данные на тренировочный и тестовый наборы
-    X_train = X.iloc[train_indices]
-    X_test = X.iloc[test_indices]
-    y_train = y.iloc[train_indices]
-    y_test = y.iloc[test_indices]
-    
-    return X_train, X_test, y_train, y_test
-
-X_train, X_test, y_train, y_test = train_test_split_custom(X, y, test_size=0.2)
-
-print(X_train)
